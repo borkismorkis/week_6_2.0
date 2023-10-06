@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div.container {
+    border: 1px solid rgb(120, 167, 255);
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+  }
+header{
+background-color: rgb(157, 185, 255);
+}
+header h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Young Serif', serif; 
+  padding: 5%;
+  font-size: xx-large;
+}
+main{
+  position: relative;
+}
+.Hero{
+  position: relative;
+  text-align: center;
+}
+.Hero .overlay{
+width: 60%;
+margin: 0 20%;
+top: 0;
+}
+.Hero img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 20px;
+ width: 60%;
+}
+div.left,div.middle,div.right{
+  border: 3px solid rgb(184, 184, 184);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+.section{
+  background-repeat:no-repeat;
+}
+div.Hero{
+background-image:url(images_for_mid_term/ShoeHouse_Mendoza.jpg);
+}
+div.left{
+background-image:url(images_for_mid_term/AlbumCover_Victor_Mendoza-1.jpg);
+}
+div.middle{
+  background-image:url(images_for_mid_term/Glow_effect_Mendoza.jpg);
+  }
+div.right{
+  background-image:url(images_for_mid_term/AlbumCover_Victor_Mendoza-1.jpg);
+    }
+.overlay{
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+  height: 30px;
+  transition: all 0.5s ease;
+ }
+ .overlay:hover{
+  height: 500px;
+ }
+aside img{
+  width: 100%;
+}
+aside{
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+nav{
+background-color: rgb(255, 255, 255);
+}
+ul{
+margin-top: 10px;
+text-align: center;
+display: flex;
+justify-content: space-around;
+}
+li{
+  list-style-type: none;
+  width: 20%;
+  border: 2px solid rgb(147, 156, 255);
+  line-height: 3em;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Young Serif', serif;
+  font-variant: small-caps;
+  background-color: aquamarine;
+  margin-bottom: 10px;
+  }
+  a{
+    color: rgb(18, 0, 155);
+    text-decoration: none;
+    border: 10px solid rgb(210, 213, 0);
+    display: block;
+    }
+  footer{
+    margin-top: 10px;
+    text-align: center;
+    font-size: x-large;
+  }
